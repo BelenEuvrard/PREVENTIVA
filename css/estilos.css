@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*variable globales*/
+body {
+  font-family: 'Source Code Pro', monospace; }
+
+/*---------------------------------------------------HEADER----------------------------------------------------------------*/
+header {
+  width: 100%;
+  padding-top: 1rem; }
+
+.container-header {
+  width: 100%; }
+
+@keyframes desplazarce {
+  0% {
+    left: 0%; }
+  100% {
+    left: 30%; } }
+
+.navbar-brand {
+  animation-name: desplazarce;
+  animation-duration: 3s;
+  animation-direction: reverse;
+  position: absolute; }
+
+.navbar-nav {
+  margin-left: 5rem; }
+
+/*----------------------------------------------- navegador----------------------------------------------*/
+#color-h1 {
+  color: white; }
+
+#color-h1:hover {
+  color: rgba(152, 230, 233, 0.7); }
+
+.nav-link:hover {
+  color: rgba(152, 230, 233, 0.7); }
+
+/*------------------------------------------footer----------------------------------------------------*/
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: #4f9a94;
+  background: linear-gradient(180deg, #4f9a94 3%, #80cbc4 29%, #b2fef7 74%);
+  color: #0b0b5f; }
+
+footer div a {
+  text-decoration: none;
+  flex-direction: row; }
+
+.pie {
+  font-family: 'Montserrat', sans-serif; }
+
+/*---------------------------------------------HOME INDEX-----------------------------------------------------*/
+#body-index {
+  font-family: 'Source Code Pro', monospace;
+  width: 100%;
+  height: 100vw;
+  background: url(../imagenes/fondo-min.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.background-index {
+  background: rgba(95, 100, 186, 0.7);
+  width: 100%;
+  height: 100%; }
+
+.fondo-color {
+  margin-top: 9rem; }
+
+.fondo-parrafo {
+  background-color: rgba(152, 230, 233, 0.7);
+  color: #30336b;
+  border-radius: 25px;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  padding: 1rem; }
+
+.fondo-parrafo p {
+  font-family: 'Montserrat', sans-serif;
+  color: #21245a; }
+
+#boton-index {
+  background-color: #767abb;
+  color: white; }
+
+/*---------------------------------------------NOSOTROS-----------------------------------------------------*/
+#nosotros {
+  background-color: #96dfdf;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%232d7c9f' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  color: #21245a;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 8rem;
+  padding: 3rem;
+  box-shadow: 5px 5px #888888;
+  width: 100; }
+
+.cuerpo-paginas {
+  background-color: #767abb; }
+
+#img-nosotros {
+  border-radius: 25px;
+  margin-top: 2rem; }
+
+#titulonosotros {
+  font-family: 'Source Code Pro', monospace; }
+
+/*---------------------------------------------SERVICIOS-----------------------------------------------------*/
+.servicios {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif; }
+  .servicios__img {
+    width: 30rem;
+    height: 20rem; }
+
+.card-body {
+  background-color: rgba(152, 230, 233, 0.7);
+  color: #21245a; }
+
+#tituloservicios {
+  font-family: 'Source Code Pro', monospace;
+  color: #21245a; }
+
+/*---------------------------------------------CLIENTES-----------------------------------------------------*/
+.clientes {
+  width: 100%; }
+
+#tituo_clientes {
+  font-family: 'Source Code Pro', monospace;
+  color: #21245a; }
+
+#section-clientes {
+  background: url(../imagenes/clientes-min.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 2rem;
+  height: 100%;
+  width: 100%; }
+
+#clientes {
+  background-color: rgba(225, 226, 245, 0.7);
+  height: 100%; }
+
+@keyframes movimiento {
+  0% {
+    opacity: 0; }
+  15% {
+    opacity: 0.1; }
+  35% {
+    opacity: 0.2; }
+  55% {
+    opacity: 0.3; }
+  75% {
+    opacity: 0.4; } }
+
+.clientes__1 {
+  animation-name: movimiento;
+  animation-duration: 4s; }
+
+.clientes__2 {
+  animation-name: movimiento;
+  animation-duration: 4s; }
+
+.clientes__3 {
+  animation-name: movimiento;
+  animation-duration: 4s; }
+
+.clientes__4 {
+  animation-name: movimiento;
+  animation-duration: 4s; }
+
+.clientes__5 {
+  animation-name: movimiento;
+  animation-duration: 4s; }
+
+/*---------------------------------------------------------------contacto---------------------------------------------------------------------------*/
+#titulo-contacto {
+  font-family: 'Source Code Pro', monospace;
+  color: #21245a; }
+
+.seccion_2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-right: 17rem; }
+
+.modal-content {
+  background-color: rgba(152, 230, 233, 0.7);
+  color: white; }
+
+.section2contacto {
+  font-family: 'Source Code Pro', monospace; }
