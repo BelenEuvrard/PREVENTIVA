@@ -1,6 +1,6 @@
 
 
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
     
     h1 {
         font-size: 1.5rem;
@@ -9,25 +9,31 @@
     }
     .subtitulo {
 
-        font-size: 0.5rem;
+        display:none;
 
     }
     #seccion-index{
       
         display: flex;
         flex-direction: column;
-        align-items: center;
-       
-
-    }
-    .fondo-parrafo{
-        margin-bottom: 2rem;
-        padding: 5rem;
+        justify-content: center;
+        
+      
+    
     }
 
+  
+    #body-index{
+
+        height: 100vh;
+    }
+  
+.fondo-parrafo{
+    width: 150px;
+}
     .fondo-parrafo h2 {
             
-        font-size: 1.2rem;
+        font-size: 1.1rem;
 
         }
         .fondo-parrafo h3 {
@@ -40,8 +46,89 @@
                 font-size: 1rem;
             }
             .fondo-parrafo p {
-            
+                display:none;
                 font-size: 0.8rem;
         
                 }
-            }
+#boton-index{
+    width: 3rem;
+    height: 2.5rem;
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+footer{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-size: 0.8rem;
+    
+}
+
+
+
+.navbar-toggler {
+    margin-top: 7rem;
+}
+
+.header-content-right{
+    font-size: 0.5rem;
+}
+
+#titulonosotros{
+    font-size: 1rem;
+}
+#tituloservicios{
+    font-size: 1rem;
+    
+
+}
+#container-servicio{
+    margin: 0;
+    padding: 0;
+
+}
+.card{
+    
+}
+.card-body{
+    font-size: 0.5rem;
+
+.card-title{
+    font-size: 0.8rem;
+
+
+}
+#subtitulo-servicio {
+    display:none;
+}
+.servicios{
+    padding: 0;
+
+}
+}
+#tituo_clientes{
+    font-size: 1rem;
+    
+}
+.img_clientes{
+    width: 2rem;
+
+}
+#clientes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#titulo-contacto{
+    font-size: 1rem;
+}
+#section2contacto{
+    font-size: 0.8rem; 
+}
+
+}
+
+            

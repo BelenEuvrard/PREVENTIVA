@@ -4,7 +4,10 @@
     box-sizing: border-box;
     }
 
- 
+ @import"_media1.scss";
+ @import"_media2.scss";
+ @import"_media3.scss";
+ @import"_media4.scss";
  
    
      
@@ -97,15 +100,16 @@ header {
 /*------------------------------------------footer----------------------------------------------------*/
 
 footer {
-  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+ 
     padding-top: 1rem;
     padding-bottom: 1rem;
     background: rgb(79,154,148);
     background: linear-gradient(180deg, rgba(79,154,148,1) 3%, rgba(128,203,196,1) 29%, rgba(178,254,247,1) 74%);
     color:$color-titulos;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    
 
 
 }
@@ -137,8 +141,6 @@ footer div a {
 #body-index {
 
     font-family: 'Source Code Pro', monospace;
-    width:100%;
-    height:100vw;
     background: url(../imagenes/fondo-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -149,7 +151,8 @@ footer div a {
 .background-index {
     background:$fondo-secundario;
     width: 100%;
-    height: 100%;
+    height:100vh;
+    
 }
 
 
@@ -194,15 +197,17 @@ footer div a {
    
     color:rgb(33, 36, 90);
     font-family: 'Montserrat', sans-serif;
-    margin-top: 8rem;
+    margin-top: 2rem;
+    
     padding: 3rem;
  
     box-shadow: 5px 5px #888888;
-    width: 100;
+    width:100%
 
 }
 .cuerpo-paginas{
     background-color:$fondo-paginas;
+    height: 100vh;
 
 }
 
@@ -223,11 +228,12 @@ footer div a {
 /*---------------------------------------------SERVICIOS-----------------------------------------------------*/
 
 .servicios{ 
-
-   
     width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
     font-family: 'Montserrat', sans-serif;
-  
+
 
   &__img{
 
@@ -240,10 +246,19 @@ footer div a {
         }
             }
 .card-body{
+
     background-color:$fondo-parrafos;
     color:rgb(33, 36, 90);
 
+
 }
+
+#container-servicio{
+    position: absolute;
+
+}
+
+
 #tituloservicios{
     font-family: 'Source Code Pro', monospace;
     color:rgb(33, 36, 90);
@@ -254,22 +269,22 @@ footer div a {
  /*---------------------------------------------CLIENTES-----------------------------------------------------*/   
 
  .clientes {
-    
-    width: 100%;
+
   
  }
  #tituo_clientes{
     font-family: 'Source Code Pro', monospace;
     color:rgb(33, 36, 90);
+    margin-bottom: 5rem;
+    padding-top: 2rem;
  }
 
  #section-clientes{
     background: url(../imagenes/clientes-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
- 
-    margin-top: 2rem;
-    height:100%;
+    margin-top: 5rem;
+    height:50vh;
     width: 100%;
  }
  #clientes{
