@@ -1,6 +1,21 @@
 @media (min-width: 992px) and (max-width: 1199.98px){
 
-    h1{
-        
+    .subtitulo {
+        font-size: 1rem;
+  }
+
+    .navbar-toggler {
+    
+        margin-left: auto; 
+    
+    }
+    .nav-link {
+        margin-left: auto;
+    }
+
+    #section-clientes{
+        padding-bottom: 7rem;
     }
 }
+
+

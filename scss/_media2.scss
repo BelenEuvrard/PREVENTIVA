@@ -1,8 +1,4 @@
-* { 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
+
     @media (min-width: 576px) and (max-width: 767.98px) {
 
         h1 {
@@ -10,13 +6,25 @@
         
     
         }
-        .subtitulo {
+        
+
+    .navbar-toggler {
     
-            font-size: 0.5rem;
+        margin-left: auto; 
     
+    }
+    .nav-link {
+        margin-left: auto;
+    }
+    .img_clientes{
+        width: 4rem;
+    }
 
-
-
+    .fondo-parrafo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
     }
          
 }

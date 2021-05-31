@@ -176,6 +176,8 @@ footer div a {
     width: 50%;
     height: 100%;
     padding: 1rem;
+    
+
 }
 
    .fondo-parrafo p{
@@ -211,7 +213,7 @@ footer div a {
 }
 .cuerpo-paginas{
     background-color:$fondo-paginas;
-    height: 100vh;
+    height: 100%;
 
 }
 
@@ -272,10 +274,7 @@ footer div a {
 
  /*---------------------------------------------CLIENTES-----------------------------------------------------*/   
 
- .clientes {
-
-  
- }
+ 
  #tituo_clientes{
     font-family: 'Source Code Pro', monospace;
     color:rgb(33, 36, 90);
@@ -294,6 +293,14 @@ footer div a {
  #clientes{
     background-color:rgba(225, 226, 245, 0.7);
     height: 100%;
+
+ }
+ 
+ #columna-clientes{
+     display: flex;
+     flex-direction:row;
+     justify-content: space-between;
+
  }
 
 
