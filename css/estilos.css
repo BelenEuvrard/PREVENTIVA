@@ -62,7 +62,11 @@
   #clientes {
     display: flex;
     flex-direction: column;
-    justify-content: center; } }
+    justify-content: center; }
+  #titulo-contacto {
+    font-size: 1rem; }
+  #section2contacto {
+    font-size: 0.8rem; } }
 
 * {
   margin: 0;
@@ -119,7 +123,6 @@ footer {
   background: #4f9a94;
   background: linear-gradient(180deg, #4f9a94 3%, #80cbc4 29%, #b2fef7 74%);
   color: #0b0b5f;
-  position: absolute;
   width: 100%;
   bottom: 0; }
 
@@ -131,16 +134,20 @@ footer div a {
   font-family: 'Montserrat', sans-serif; }
 
 /*---------------------------------------------HOME INDEX-----------------------------------------------------*/
+#main {
+  min-height: 100vw; }
+
 #body-index {
   font-family: 'Source Code Pro', monospace;
   background: url(../imagenes/fondo-min.jpg);
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  height: 100%; }
 
 .background-index {
   background: rgba(95, 100, 186, 0.7);
   width: 100%;
-  height: 100vh; }
+  height: 100%; }
 
 .fondo-color {
   margin-top: 9rem; }
